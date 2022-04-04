@@ -1,0 +1,159 @@
+.page-title {
+    text-align: center;
+    padding-right: 20%;
+    font-size: 60px;
+    color: #1363C8;
+    margin: 20px;
+}
+
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #9b9b9b;
+}
+
+.nav-bar {
+    height: 5%;
+    width: auto;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+ul, a {
+    all:unset;
+    margin: 0;
+}
+
+ul > a {
+    height: auto;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px 0px;
+    background-color: #1363C8;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(133,133,133);
+    box-shadow: rgb(133,133,133);
+}
+
+ul > form {
+    border-width: 1px;
+    height: auto;
+    float: right;
+    border-bottom: none;
+    margin: 0px 0px;
+    background-color: #1363C8;
+    cursor: pointer;
+}
+
+.logout-button {
+    float: right;
+    margin-right: 0px;
+}
+
+.logout-input {
+    border-width: 1px;
+    height: auto;
+    background: #1363C8;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0px 0px;
+    background-color: #1363C8;
+    cursor: pointer;
+}
+
+#login-div {
+    display: none;
+}
+
+#logout {
+    display: none;
+}
+
+#signup-div {
+    display: none;
+}
+
+hr {
+    margin-top:0px;
+    color: #1363C8;
+}
+
+.location-box {
+    float: left;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+}
+
+.location-box ol {
+    margin: 2%;
+    padding: 0;
+}
+
+.location-box-title {
+    font-size: 35px;
+    color: #1363C8;
+    text-align: center;
+}
+
+.location {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #1363C8;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.location-button {
+    font-size: 22px;
+    width: 90%;
+    height: 10%;
+    background-color: #1363C8;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 19px;
+    /* margin-right: 10px; */
+}
+
+.location-box hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.tap-list-container {
+    padding-top: 0;
+    width: 70%;
+    height: 90%;
+    float: right;
+    margin: 0;
+}
+
+.tap-list-title {
+    font-size: 35px;
+    text-align: center;
+    color: #1363C8;
+    position: relative;
+}
+
+.tap-list {
+    overflow: hidden;
+    margin-top: 1%;
+    display: block;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
